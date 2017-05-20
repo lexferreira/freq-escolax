@@ -1,0 +1,112 @@
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Menu de Navegação e Cadastro</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/authentication.js"></script>
+		<script src="js/realtime_database_usuario.js"></script>		
+		<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+		<script src="js/app.js"></script>
+				
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Escola X</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="visualizar.html">Visualizar Frequência</a></li>
+						<li><a href="calendario.html">Calendário Escolar</a></li>
+						<li id="displayName">Não logado</li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+					<header class="major">
+						<h2>Sistema de Controle de frequência</h2>
+						<p>Abaixo os ambientes do sistema:</p>
+					</header>
+					<section>
+					<div id="mini_menu" align="center">
+						<ul class="actions">
+							<li>
+								<a href="cadastro_usuario.html" class="button alt big" size="22">Cadastrar Usuário</a></br>
+								<br><a href="cadastro_turma.html" class="button alt big" size="22">Cadastrar Turma</a></br>
+								<br><a href="cadastro_aluno.html" class="button alt big" size="22">Cadastrar Aluno</a></br>
+								<br><a href="cadastro_responsavel.html" class="button alt big" size="22">Cadastrar Responsável</a></br>
+								<br><a href="registro_frequencia.html" class="button alt big" size="22">Registrar Frequência</a></br>
+								<br><a href="visualizar_registros.html" class="button alt big" size="22">Visualizar Registros</a></br>
+								<br><a href="index.html" class="button alt big" size="22" onclick="logOut()">Sair</a></br>
+							</li>
+						</ul>
+					</div>	
+					</section>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Sites úteis</h3>
+							<p>Acesse o Boletim, Site da Diretoria de Ensino e Secretaria da Educação.</p>
+							<ul class="alt">
+								<li><a href="http://sed.educacao.sp.gov.br/">Boletim Escolar</a></li>
+								<li><a href="http://debragancapaulista.educacao.sp.gov.br/">Diretoria de Ensino Região de Bragança Paulista</a></li>
+								<li><a href="http://www.educacao.sp.gov.br/">Secretaria de Educação do Estado de São Paulo</a></li>
+								<li><a href="http://www.prefeituradeatibaia.com.br/">Prefeitura de Atibaia</a></li>
+							</ul>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>     </h3>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Entre em contato:</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Endereço</h3>
+									Rua Rui Barbosa, 15<br>
+									Atibaia, SP 12940-000
+								</li>
+								<li>
+									<h3>E-Mail</h3>
+									<a href="#">contato@escolax.com</a>
+								</li>
+								<li>
+									<h3>Telefone</h3>
+									(11)4444-5555
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; losmacacosCorp. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>

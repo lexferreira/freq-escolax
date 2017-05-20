@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Página de teste</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div class='container'>
+        <div class='header'>
+          <h1>Cadastro de alunos</h1>
+          <h4>Escola X</h4>
+        </div>
+        <section id="main" class="wrapper">
+        <div class="container">
+          <header class="major">
+            <h2>Sistema de Controle de frequência</h2>
+            <p>Abaixo os ambientes do sistema:</p>
+          </header>
+          <section>
+          <div id="mini_menu" align="center">
+            <ul class="actions">
+                <a href="cadastro_usuario.html" class="button alt big" size="22">Cadastrar Usuário</a></br>
+                <br><a href="cadastro_turma.html" class="button alt big" size="22">Cadastrar Turma</a></br>
+                <br><a href="cadastro_aluno.html" class="button alt big" size="22">Cadastrar Aluno</a></br>
+                <br><a href="cadastro_responsavel.html" class="button alt big" size="22">Cadastrar Responsável</a></br>
+                <br><a href="registrar_frequencia.html" class="button alt big" size="22">Registrar Frequência</a></br>
+                <br><a href="visualizar_registros.html" class="button alt big" size="22">Visualizar Registros</a></br>
+                <br><a href="index.html" class="button alt big" size="22" onclick="logOut()">Sair</a></br>
+              </li>
+            </ul>
+          </div>  
+          </section>
+        </div>
+      </section>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+      <script src="js/realtime_database_aluno.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    </body>
+</html>
